@@ -1,0 +1,17 @@
+---
+layout: page
+title: Kişisel
+header: Kisisel postlar
+group: navigation
+---
+{% include JB/setup %}
+
+{% for category in site.categories %} 
+	{% if category[0] == "kisisel" %}
+		<ul>
+			{% assign pages_list = category[1] %}  
+			{% include JB/pages_list %}
+		</ul>
+  	{% endif %}
+{% endfor %}
+
