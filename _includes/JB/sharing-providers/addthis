@@ -5,6 +5,7 @@
 <a class="addthis_button_compact"></a>
 <a class="addthis_counter addthis_bubble_style"></a>
 </div>
+<script>
 	var addthis_share = { templates: {
 		twitter: '{{title}} {{url}} (via@kubudik)',}}
 </script>
