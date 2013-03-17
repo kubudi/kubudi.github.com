@@ -7,6 +7,6 @@
 </div>
 <script>
 	var addthis_share = { templates: {
-		twitter: '{{title}} {{url}} (via@kubudik)',}}
+		twitter: '{{page.title}} {{site.url}} (via@kubudik)',}}
 </script>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51444d3d59722afe"></script>
