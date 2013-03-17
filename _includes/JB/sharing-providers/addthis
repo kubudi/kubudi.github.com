@@ -7,6 +7,7 @@
 </div>
 <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
 <script type="text/javascript">
-	var addthis_share = {templates: {twitter: '{{page.title}} {{"www.google.com"}}(via@kubudik)',}}
+	var addthis_share = { templates: {
+		twitter: '{{page.title}} {{"{{ BASE_PATH }}{{ page.next.url }}"}}(via@kubudik)',}}
 </script>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51444d3d59722afe"></script>
