@@ -7,7 +7,7 @@
 </div>
 <script>
 	var addthis_share = { templates: {
-		 {% capture realurl %}{{ BASE_PATH }}{{page.url}}{% endcapture %}
+		 {% capture realurl %}{{ production_url }}{{page.url}}{% endcapture %}
 		twitter: '{{page.title}} {{realurl}} (via@kubudik)'}}
 </script>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51444d3d59722afe"></script>
