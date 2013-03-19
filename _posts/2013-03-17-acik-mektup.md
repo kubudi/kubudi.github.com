@@ -55,7 +55,7 @@ sarıyor kaset. Aynı olaylar, aynı terane...
 >_"Ben geri zekalı değilim."_  
 
   Bu ara çok sık söylemeye başladım bu cümleyi. Sevmiyorum aslında. Ama mecbur bırakıyorlar. Herkes bir taraftan
-"O öyle, bunu düşündün mü, şu aslında böyleymiş" gibi zaten düşündüğüm, bildiğim şeyleri söyleme hiç ara vermediği için şüpheleniyorum. Acaba beni geri zekalı mı zannediyorlar diye.
+"O öyle, bunu düşündün mü, şu aslında böyleymiş" gibi zaten düşündüğüm, bildiğim şeyleri söylemeye hiç ara vermediği için şüpheleniyorum. Acaba beni geri zekalı mı zannediyorlar diye.
 
   Hani birisi çıkıp dese ki "Bunu yapman bence iyi yap onu", veya ne bileyim "Sen böyle birisin bak, bu sana daha
 uygun" filan, ellerinden öperim. Ama yok. Bunu yapabilecek ya kapasiteleri yok, ya da cesaretleri.
@@ -66,7 +66,7 @@ uygun" filan, ellerinden öperim. Ama yok. Bunu yapabilecek ya kapasiteleri yok,
 bırakalı uzun zaman oluyor, anlatamıyorum. Kimseyi suçlamıyorum, kızmıyorum, küsmüyorum, kendime darılıyorum 
 biraz, "Neden böyle yapıyorsun diye". Sonra o da geçiyor zaten, malum sebeplerim var benim de kendimce.
 
-  Söylediğim şeylerin bi ehemmiyeti yok gözlerinde. Hadi diğer konuları anlarım, ama kendim hakkımda
+  Söylediğim şeylerin bir ehemmiyeti yok gözlerinde. Hadi diğer konuları anlarım, ama kendim hakkımda
 söylediklerimi dinleyin en azından ne olur.. Ben balık sevmiyorum diyorsam, sevmiyorumdur. Acaba gerçekten
 sevmiyor mu diye denemenin bir anlamı var mı? Veya önüme inadına balık koymanın? Siz öylesiniz belki bilmiyorum,
 Kişi kendinden bilirmiş hani. En azından bana benim istediğim gibi baksanız ne olur ki?
@@ -82,8 +82,8 @@ Kişi kendinden bilirmiş hani. En azından bana benim istediğim gibi baksanız
 >_Kalbimi sevdim, seni sevdi diye,_    
 >_Ümit etmeyi sevdim, belki seversin diye..."_    
 
-  (Okuyucu burada bu not parçasının ne kadar lise-vari olduğunu düşünür).    
-"Ah" almak nasıl bir şeydir bilir misiniz? Ben tecrübe ettim ziyadesiyle. Bu not sayesinde iyice emin oldun 
+  (Okuyucu burada bu not parçasının ne kadar lise-vari olduğunu düşünür). 
+"Ah" almak nasıl bir şeydir bilir misiniz? Ben tecrübe ettim ziyadesiyle. Bu not sayesinde iyice emin oldum 
 neden böyle olduğuna. Çok uzun zamanlar önce bunu bana yazan kişinin üzerimde nasıl bir hakkı olduğunu 
 düşününce, "Ne bekliyordun ki başka" diyebiliyorum kendime. O yüzden teşekkür ediyorum ben bu notları attığımda 
 arkamdan gizlice alıp saklayanlara.
