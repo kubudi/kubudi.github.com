@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+        <title>Mehmet Ali Gözaydın</title>
+        <description>Mehmet Ali Gözaydın - Mehmet Ali Gözaydın</description>
+        <link>http://kubudi.me</link>
+        <link>http://kubudi.me</link>
+        <lastBuildDate>2013-12-19T23:48:38+02:00</lastBuildDate>
+        <pubDate>2013-12-19T23:48:38+02:00</pubDate>
+        <ttl>1800</ttl>
+
+
+        <item>
+                <title>Object Oriented Insanoglu</title>
+                <description>&lt;p&gt;Yillar once bir arkadasa cpp anlatmaya calisirken soyle bir ornek vermistim:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Insani bir class olarak dusun. Bazi public bilgileri var. Adi, yasi, cinsiyeti..&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Ayni zamanda bazi private bilgileri de var. Fikirleri, anilari veya paylasmak istemedigi diger bilgileri.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Bu insan da alt classlardan olusur. Kol, Bacak, Kafa..&lt;/em&gt; &lt;em&gt;Alt classlar da kendi bilgilerine sahip vesair&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Ayrica bu classin tum ozelliklerini barindiran, usune baska ozellikler ekleyen classlar da var:&lt;/em&gt; &lt;em&gt;Kadin, erkek, cocuk..&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Ve bu classlarin da instancelari var:&lt;/em&gt; &lt;em&gt;Ali, Ayse, Husamettin..&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Boyle uzayip gidiyor. Kime anlattigimi hatirlamiyorum ama cok ise yaramadigi zihnimde.&lt;/p&gt;
+
+&lt;p&gt;Asil konuya gelirsek, gecenlerde farkettim ki, anlamadan da olsa cok yerinde bir tespit yapmis olabilirim. OOP gercekten insanlara cok benziyor.&lt;/p&gt;
+
+&lt;p&gt;Yakin zamanda fonksiyonel programlamayla hasir nesir olma firsati yakaladim. Dolayisiyla bir kac temel felsefenin insan karakteri ile olan catismasi haylice gozume batmaya basladi:&lt;/p&gt;
+
+&lt;h3 id=&quot;imutability&quot;&gt;Imutability:&lt;/h3&gt;
+
+&lt;p&gt;Fonksiyonel programlamanin temellerinden olan bu kavram soyle tanimlaniyor:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;“Yaradilisindan sonra durumu, hali degistirilemeyen varliklar duragan(immutable) varliklardir.”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ilk alintidan ne demeye calistigim bir nebze anlasilmistir sanirim.&lt;/p&gt;
+
+&lt;p&gt;Kavrami arastirirken ilginc bir de tanima rastladim:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;“Tanri’nin sifatlari, iradesi ve vaatleri duragandir.”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Insanoglu tartismasiz mutable bir varliktir. Degisir, baskalasir, tutarsizdir, kararsizdir. Onceki bir durumunu bilmeniz size su anki haliyle ilgili hic bir teminat vermez.&lt;/p&gt;
+
+&lt;p&gt;Ve ilginctir ki su an, tam bu yaziyi yazarken, sirf denemek icin actigim bir grubun calan sarkisinin sozleri su sekildedir:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;3 sey, yakalasaniz iyi edersiniz. Annem derdi ki, insanlar atesin yanisini izlemeye bayilirlar.&lt;/em&gt;&lt;br /&gt;&lt;em&gt;Hayat hakkinda bildigm tek bir seyden eminim. &lt;strong&gt;Degisim kacinilmazdir.&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt;&lt;em&gt;Inanin bana, her ne kadar konfor bolgenizde kalmak isteseniz de, ne kadar stabil kalmak isteseniz de, ne kadar etrafinizi kontrol etmek isteseniz de, gercek&lt;/em&gt;&lt;br /&gt;&lt;em&gt;sudur ki: “her sey degisir”.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Guzel bir tesaduf oldu.&lt;/p&gt;
+
+&lt;h3 id=&quot;side_effect&quot;&gt;Side Effect:&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Eger bir islev(function) veya ifade(expression), geriye deger dondurmenin yanisira, baska bir varligin durumunu degistiriyorsa,&lt;/em&gt; &lt;em&gt;veya harici bir fonksiyonla gozlemlenebilir bir iletisimi varsa side effect(yan etki) sahibidir denir.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Hayatinizin bir doneminde siz de benim gibi olmasi gerekenin aksine sebep sonuca iliskisi tasimayan, akla gelmeyecek bin turlu farkli degisken, varlik ve iliskilere dayanan insan davranislarina tanik olduysaniz, insan davranislarinin yuksek miktarda side effect tasidigi konusunda bana yuzde yuz katilacaginiza inaniyorum.&lt;/p&gt;
+
+&lt;p&gt;Ve “cikar iliskisi” denen kavram var oldugu surece hic bir insan davranisi &lt;em&gt;pure&lt;/em&gt; olmayacaktir, olamaz.&lt;/p&gt;
+
+&lt;h4 id=&quot;type_safety&quot;&gt;Type Safety:&lt;/h4&gt;
+
+&lt;p&gt;Evet, pes etmediniz, yilmadiniz, bu yaziyi buraya kadar okudunuz. Iste odulunuz, bir kissa:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Nasrettin Hoca, suya gönderdiği çocuğun eline testiyi vermiş ve;&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;“–Testiyi kırmadan getir.” diyerek bir de tokat patlatmış.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Yanındakiler hocaya söylenmişler:&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;“–Hocam, çocukcağız testiyi kırmadı ki, tokat atıyorsun! Bu yaptığın doğru bir iş değil!” Hoca istifini bozmadan cevap vermiş:&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;“–Doğru söylüyorsunuz; ancak testiyi kırdıktan sonra tokat atmanın ne faydası olur?”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Type safety denen tanim soyle aciklaniyor:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Type safety, type hatalarinin olusmamasi icin caydirici onlemler alinmasi veya engellenmesidir.&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Type hataasi ise iki farkli tipteki(type) varligin birbirinden ayirt edilmesinde yasanan, arzu edilmeyen karisikliktir.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Zorlamaya gerek yok; sogana portakal gibi davranip suyunu sikmak type hatasidir.&lt;/p&gt;
+
+&lt;p&gt;Anlasilacagi gibi, type safe sistemler bu hatalari minimize etmek uzerine tasarlanir. Bunun da en kolay yolu testi kirilmadan onlem almaktir. Eger sikilacak seyin portakal olup olmadigini sorgularsan, sogan suyu icmek zorunda kalmazsin.&lt;/p&gt;
+
+&lt;p&gt;Peki insanoglu neden type safe degildir? Dusunsenize, biz ki her insana, her varliga olmasi gerektigi gibi davranan, taa bastan itibaren neyle ugrastigini bilen, her turlu iletisimde icin en ideal, en uygun tutuma sahip varliklar olarak hangi mekanizma bizden daha type safe ki?&lt;/p&gt;
+
+&lt;p&gt;Sonuc? Tipki insanliga olan inancim gibi, Object oriented programlamaya olan inancimi da kaybetmis bulunuyorum. Sanirim hayati daha fonksiyonel bir bakis acisi ile yasamak, en ideal davranis olacaktir.&lt;/p&gt;
+
+&lt;p&gt;Sevgiler.&lt;/p&gt;</description>
+                <link>http://kubudi.me/2013/12/18/object-oriented-insanoglu</link>
+                <guid>http://kubudi.me/2013/12/18/object-oriented-insanoglu</guid>
+                <pubDate>2013-12-18T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Korkuyorum</title>
+                <description>&lt;p&gt;Korkuyorum. Ve korkum bir çığ olup iniyor umut dağlarından aşağı. Dağları eritip bir toz yığını bırakarak, katlanarak büyüyor. Yoluna çıkan her şeyi yutarak, ve sürekli hızlanarak yol alıyor, şahikalardan kara katmanlara doğru. Neşe mutluluk, istek, mantık, yaşama sevinci… Ayırt etmiyor, yutuyor ve devam ediyor yoluna dur durak bilmeden.&lt;/p&gt;
+
+&lt;p&gt;Sesi yeryüzünü titretiyor. Korkuyor güneş, bulutların arkasına gizleniyor. Acun meraklanıyor bu koca çığ nereye sığacak diye. Şaşırıyor, soruyor dilek yıldızlarına “bu umut dağları bitince ne olacak” diye, cevapsız kalıyor en bilgelerin yanında bile.&lt;/p&gt;
+
+&lt;p&gt;Sonra kor olmuş gönlüme rastlıyor yolunun üzerinde, ateşi eritiyor o ulu çığı saniyesinde. Ama durmuyor, sel olup ilerliyor dosdoğru hedefine. Hala yıkıcı, hala acımasız, hala delice&lt;/p&gt;
+
+&lt;p&gt;Yıkıyor önünde kalan son manevi barınakları, süpürüyor etrafta kalan tüm savunulacakları. Ve sonunda ulaşıyor menziline muzafferce.&lt;/p&gt;
+
+&lt;p&gt;Ama yavaşlıyor orada, o heybetini, o korkunç çehresini bırakıyor bir kenara. Sessizleşiyor, ve usulca karışıyor engin ümitsizlik deryasına, Ardında bir hiçlik diyarı bırakarak&lt;/p&gt;
+
+&lt;p&gt;Susuyor sema, susuyor yeryüzü, susuyor tüm dünya. Kainat şaşırıyor bu denizin durgunluğuna. Bir sessizlik çöküyor, öyle bir sessizlik ki, hüsranın amansız çığlıklarını boğuyor sinesinde.&lt;/p&gt;
+
+&lt;p&gt;Keder bulutları döküyor hicran yağmurlarını. Yas rüzgarları süpürüyor umut dağlarından geriye kalanları hayal kırıklıklarıyla dolu çöplüğe. Ne o koca umuttan bir eser kalıyor geriye, ne de bir zerre miktarı neşe.. Bir hiçlik, amansız bir hiçlik ayakta duruyor sadece.&lt;/p&gt;
+
+&lt;p&gt;Ve ben, ben de artık göç ediyorum rüyalar diyarına. Belki mutluluğu orada bulabilirim diye&lt;/p&gt;</description>
+                <link>http://kubudi.me/kisisel/2013/03/17/korkuyorum</link>
+                <guid>http://kubudi.me/kisisel/2013/03/17/korkuyorum</guid>
+                <pubDate>2013-03-17T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Açık Mektup</title>
+                <description>&lt;p&gt;Ne oluyor? Yüzüm neden yanıyor? Nabzım neden bu kadar yükseldi? Eski defterlerimin üzerindeki toz mu boğazımı düğümleyen?&lt;/p&gt;
+
+&lt;p&gt;Yağmur? Benim için mi ağlıyorsunuz bulutlar? Yapmayın, ne olacak ki? Yeni bir şey yok. Her şey en az şu kağıtlar kadar eski.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;“18.03.2011&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Bilmemek: Merak, umut, heyecan, korku, hayal&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Bilmek: Üzüntü, pişmanlık, ümitsizlik, acı, çaresizlik, hayal…”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Tarihe dikkat ettiniz mi? Kainatın kozmik şakalarından birisi. Bunu yazarken hissettiklerimi an gibi hatırlıyorum. Aslında beni en çok zorlayan, bilmiyorum sırf bana özel mi, hayatımın bilmek ve bilmemek gibi iki kutba sahip olmamasıydı. Hep “Tahmin” isimli üçüncü bir seviyede kaldı olaylar. Ne bir şeyi tam bilebildim, ne de şaşırabildim duyduğum, gördüğüm herhangi bir hadiseye. Ve şunu söyleyebilirim ki, o kutuplarda yaşayan dostlar, imreniyorum size.&lt;/p&gt;
+
+&lt;p&gt;Bir de tespitim var. Lanetliyim kesinlikle. Aklıma gelip de başıma gelmeyen tek bir şeye rastlayamadım. Bir istisna bile yok. Hem de hiçbir yerde, hiçbir konuda. İnanması zor biliyorum, ama öyle.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;“-gözlerin neden o kadar büyük?&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;-sanal göz onlar bi kere&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;-peki, sanal gözlerin neden o kadar büyük?&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;-dünyayı daha iyi görebilmek için.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;-sanal dünyayı mı?&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;-gerçek dünyayı göremiyorum ya, onu görürüm belki dedim böyle&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;-bakmasını bilmiyorsun. İşe yaradı mı bari japon taktiği?&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;-dünya göründüğü gibi değil belki de? Bende bu akıl varken hiç bir şey göremem.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;-ben de onu diyorum işte dünya göründüğü gibi değil. Olsun sıkma canını kalp gözüyle görürsün artık.&lt;/em&gt; &lt;em&gt;Hem görmek o kadar önemli değil, aslolan hissetmek.”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ne de çok şey anlatıyor 2 satır yazı.. Bir de insanları tanımak zor derler. Hep garipserim zaten bunu. Ne var ki? Gözlerine bakacaksın altı üstü, çok mu zor?&lt;/p&gt;
+
+&lt;p&gt;Asıl mesele insanı tanıdıktan sonra başlıyor. Çünkü inanın hiç bir insan, kendini dışarıdan birisi kadar iyi tanıyamıyor. Belki kabullenemiyor bilmiyorum. Veya işine gelmiyor. Ama öyle. bundan eminim.&lt;/p&gt;
+
+&lt;p&gt;Eğer hayatınızda bir meydan okuma istiyorsanız, birisine kendini anlatmaya çalışın. Hani söyleneni duymamak için kulaklarını kapatıp, yüksek sesle şarkı söyleyen çocuklar vardır ya, onlardan birisini buluyorsunuz karşınızda bir süre sonra. Ne söylerseniz söyleyin, ne amaçla söylerseniz söyleyin, sesiniz yeterince çıkmıyormuş gibi hissettiriyorlar size.&lt;/p&gt;
+
+&lt;p&gt;Gün gelip o dinlemedikleri şeyler başlarına gelince de, “ben söylemiştim” demek oturuyor yüreğinize. Hele de bu insanlar kıymet verdiğiniz kişilerse. Sonra tamam diyorsunuz, geçti bitti. En azından şimdi dinle. Sonra başa sarıyor kaset. Aynı olaylar, aynı terane&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;“Ben geri zekalı değilim.”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Bu ara çok sık söylemeye başladım bu cümleyi. Sevmiyorum aslında. Ama mecbur bırakıyorlar. Herkes bir taraftan “O öyle, bunu düşündün mü, şu aslında böyleymiş” gibi zaten düşündüğüm, bildiğim şeyleri söylemeye hiç ara vermediği için şüpheleniyorum. Acaba beni geri zekalı mı zannediyorlar diye.&lt;/p&gt;
+
+&lt;p&gt;Hani birisi çıkıp dese ki “Bunu yapman bence iyi yap onu”, veya ne bileyim “Sen böyle birisin bak, bu sana daha uygun” filan, ellerinden öperim. Ama yok. Bunu yapabilecek ya kapasiteleri yok, ya da cesaretleri.&lt;/p&gt;
+
+&lt;p&gt;Onlar bir tarafa, anlatamıyorum kendimi sanırım. Yaşadığım, başımdan geçen her şeyin bilincindeyim. Şaşırmıyorum olanlara. Hep tahmin ettiğim şeyler oluyor zaten bunlar, neden şaşırayım ki? Öyle olacağını bile bile hareket ediyorum. Benim tercihim bu. Çaresizlik, korkaklık, yalancılık, öyle şeyleri bırakalı uzun zaman oluyor, anlatamıyorum. Kimseyi suçlamıyorum, kızmıyorum, küsmüyorum, kendime darılıyorum biraz, “Neden böyle yapıyorsun diye”. Sonra o da geçiyor zaten, malum sebeplerim var benim de kendimce.&lt;/p&gt;
+
+&lt;p&gt;Söylediğim şeylerin bir ehemmiyeti yok gözlerinde. Hadi diğer konuları anlarım, ama kendim hakkımda söylediklerimi dinleyin en azından ne olur.. Ben balık sevmiyorum diyorsam, sevmiyorumdur. Acaba gerçekten sevmiyor mu diye denemenin bir anlamı var mı? Veya önüme inadına balık koymanın? Siz öylesiniz belki bilmiyorum, Kişi kendinden bilirmiş hani. En azından bana benim istediğim gibi baksanız ne olur ki?&lt;/p&gt;
+
+&lt;p&gt;Peki benim hayatım neden şu an olduğu şekilde? Bunun cevabını da tozlu kağıtların arasında buldum yine;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;“Hayatta 3 şeyi sevdim;&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Seni,&lt;/em&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;em&gt;Kalbimi,&lt;/em&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;em&gt;Ümit Etmeyi&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Seni sevdim, sensin diye.&lt;/em&gt; &lt;br /&gt;&lt;em&gt;Kalbimi sevdim, seni sevdi diye,&lt;/em&gt; &lt;br /&gt;&lt;em&gt;Ümit etmeyi sevdim, belki seversin diye…”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(Okuyucu burada bu not parçasının ne kadar lise-vari olduğunu düşünür). “Ah” almak nasıl bir şeydir bilir misiniz? Ben tecrübe ettim ziyadesiyle. Bu not sayesinde iyice emin oldum neden böyle olduğuna. Çok uzun zamanlar önce bunu bana yazan kişinin üzerimde nasıl bir hakkı olduğunu düşününce, “Ne bekliyordun ki başka” diyebiliyorum kendime. O yüzden teşekkür ediyorum ben bu notları attığımda arkamdan gizlice alıp saklayanlara.&lt;/p&gt;
+
+&lt;p&gt;Sonuç mu? Herkes hayatını istediği şekilde yönlendirir. Siz söyledikleriniz ve söyleyeceklerinizle kalırsınız. Aynı senaryoyu tekrar tekrar izlemek zorunda bırakılırsınız. Üzülürsünüz kendiniz için değil de, başkaları için. Ağlarsınız filan&lt;/p&gt;</description>
+                <link>http://kubudi.me/kisisel/2013/03/17/acik-mektup</link>
+                <guid>http://kubudi.me/kisisel/2013/03/17/acik-mektup</guid>
+                <pubDate>2013-03-17T00:00:00+02:00</pubDate>
+        </item>
+
+        <item>
+                <title>Selam Olsun</title>
+                <description>&lt;p&gt;Vakti gelmişti. Biliyorum geç kaldım her zamanki gibi. Bahanem vardı bolca.&lt;br /&gt;Bir şu üşengeçliğim var ki, öldürüyor beni..&lt;/p&gt;
+
+&lt;p&gt;Güzel oyalanıyordum aslında. İnsanın kendini kandırması çok kolay belki. Ama sonra birden fark ettim ki; ne kadar bahane üretirsem üreteyim, ne kadar avutursam avutayım kendimi, istediğim şeyler için vakit hep çok geçti.&lt;br /&gt;Düşündüğüm onca ayrıntı, o mükemmellik hevesi, hayalleri güzeldi belki, ama tüm gerçeklere yetişmemi engelledi.&lt;/p&gt;
+
+&lt;p&gt;O yüzden başlıyorum hiç düşünmeden, tartışmadan, danışmadan. Geç kaldığım her şeyin anısına&lt;/p&gt;
+
+&lt;p&gt;İki kısmı olacak bu blogun;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Çalıştığım/çalışacağım konulardan bahsedeceğim “teknik”&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Düşündüğüm/düşüneceğim fikirlerden bahsedeceğim “kişisel”&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Belirli bir birikimden dolayı başlangıçta bu dallar biraz dengesiz büyüyebilir. Ama zamanla düzelecektir.&lt;/p&gt;
+
+&lt;p&gt;İşte başladım. Selam olsun sesimin yettiği her yere, herkese..&lt;/p&gt;</description>
+                <link>http://kubudi.me/kisisel/2013/03/16/Selam</link>
+                <guid>http://kubudi.me/kisisel/2013/03/16/Selam</guid>
+                <pubDate>2013-03-16T00:00:00+02:00</pubDate>
+        </item>
+
+
+</channel>
+</rss>

@@ -1,0 +1,14 @@
+
+http://kubudi.me/sitemap.txt
+http://kubudi.me/kisisel.html
+http://kubudi.me/archive.html
+http://kubudi.me/about.html
+http://kubudi.me/atom.xml
+http://kubudi.me/rss.xml
+http://kubudi.me/index.html
+http://kubudi.me/teknik.html
+
+http://kubudi.me/2013/12/18/object-oriented-insanoglu
+http://kubudi.me/kisisel/2013/03/17/korkuyorum
+http://kubudi.me/kisisel/2013/03/17/acik-mektup
+http://kubudi.me/kisisel/2013/03/16/Selam

@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Object Oriented Insanoglu</title>
+    <meta name="description" content="">
+    <meta name="author" content="Mehmet Ali Gözaydın">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/themes/twitter/css/1.4.0/bootstrap.css" rel="stylesheet">
+    <link href="/assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+
+    <div class="topbar">
+      <div class="fill">
+        <div class="container">
+          <a class="brand" href="/">Mehmet Ali Gözaydın</a>
+          <ul class="nav">
+            
+            
+            
+
+
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/kisisel.html">Kişisel</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Arşiv</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/about.html">Hakkında</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/teknik.html">Teknik</a></li>
+      	
+      
+    
+  
+
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="fill content " style="min-height:500px">
+        
+<div class="page-header">
+  <h1>Object Oriented Insanoglu</h1>
+</div>
+
+<div class="row">
+  <div class="span10">
+    <p>Yillar once bir arkadasa cpp anlatmaya calisirken soyle bir ornek vermistim:</p>
+
+<blockquote>
+<p><em>Insani bir class olarak dusun. Bazi public bilgileri var. Adi, yasi, cinsiyeti..</em></p>
+
+<blockquote></blockquote>
+
+<p><em>Ayni zamanda bazi private bilgileri de var. Fikirleri, anilari veya paylasmak istemedigi diger bilgileri.</em></p>
+
+<blockquote></blockquote>
+
+<p><em>Bu insan da alt classlardan olusur. Kol, Bacak, Kafa..</em> <em>Alt classlar da kendi bilgilerine sahip vesair</em></p>
+
+<blockquote></blockquote>
+
+<p><em>Ayrica bu classin tum ozelliklerini barindiran, usune baska ozellikler ekleyen classlar da var:</em> <em>Kadin, erkek, cocuk..</em></p>
+
+<blockquote></blockquote>
+
+<p><em>Ve bu classlarin da instancelari var:</em> <em>Ali, Ayse, Husamettin..</em></p>
+</blockquote>
+
+<p>Boyle uzayip gidiyor. Kime anlattigimi hatirlamiyorum ama cok ise yaramadigi zihnimde.</p>
+
+<p>Asil konuya gelirsek, gecenlerde farkettim ki, anlamadan da olsa cok yerinde bir tespit yapmis olabilirim. OOP gercekten insanlara cok benziyor.</p>
+
+<p>Yakin zamanda fonksiyonel programlamayla hasir nesir olma firsati yakaladim. Dolayisiyla bir kac temel felsefenin insan karakteri ile olan catismasi haylice gozume batmaya basladi:</p>
+
+<h3 id="imutability">Imutability:</h3>
+
+<p>Fonksiyonel programlamanin temellerinden olan bu kavram soyle tanimlaniyor:</p>
+
+<blockquote>
+<p><em>“Yaradilisindan sonra durumu, hali degistirilemeyen varliklar duragan(immutable) varliklardir.”</em></p>
+</blockquote>
+
+<p>Ilk alintidan ne demeye calistigim bir nebze anlasilmistir sanirim.</p>
+
+<p>Kavrami arastirirken ilginc bir de tanima rastladim:</p>
+
+<blockquote>
+<p><em>“Tanri’nin sifatlari, iradesi ve vaatleri duragandir.”</em></p>
+</blockquote>
+
+<p>Insanoglu tartismasiz mutable bir varliktir. Degisir, baskalasir, tutarsizdir, kararsizdir. Onceki bir durumunu bilmeniz size su anki haliyle ilgili hic bir teminat vermez.</p>
+
+<p>Ve ilginctir ki su an, tam bu yaziyi yazarken, sirf denemek icin actigim bir grubun calan sarkisinin sozleri su sekildedir:</p>
+
+<blockquote>
+<p><em>3 sey, yakalasaniz iyi edersiniz. Annem derdi ki, insanlar atesin yanisini izlemeye bayilirlar.</em><br /><em>Hayat hakkinda bildigm tek bir seyden eminim. <strong>Degisim kacinilmazdir.</strong></em><br /><em>Inanin bana, her ne kadar konfor bolgenizde kalmak isteseniz de, ne kadar stabil kalmak isteseniz de, ne kadar etrafinizi kontrol etmek isteseniz de, gercek</em><br /><em>sudur ki: “her sey degisir”.</em></p>
+</blockquote>
+
+<p>Guzel bir tesaduf oldu.</p>
+
+<h3 id="side_effect">Side Effect:</h3>
+
+<blockquote>
+<p><em>Eger bir islev(function) veya ifade(expression), geriye deger dondurmenin yanisira, baska bir varligin durumunu degistiriyorsa,</em> <em>veya harici bir fonksiyonla gozlemlenebilir bir iletisimi varsa side effect(yan etki) sahibidir denir.</em></p>
+</blockquote>
+
+<p>Hayatinizin bir doneminde siz de benim gibi olmasi gerekenin aksine sebep sonuca iliskisi tasimayan, akla gelmeyecek bin turlu farkli degisken, varlik ve iliskilere dayanan insan davranislarina tanik olduysaniz, insan davranislarinin yuksek miktarda side effect tasidigi konusunda bana yuzde yuz katilacaginiza inaniyorum.</p>
+
+<p>Ve “cikar iliskisi” denen kavram var oldugu surece hic bir insan davranisi <em>pure</em> olmayacaktir, olamaz.</p>
+
+<h4 id="type_safety">Type Safety:</h4>
+
+<p>Evet, pes etmediniz, yilmadiniz, bu yaziyi buraya kadar okudunuz. Iste odulunuz, bir kissa:</p>
+
+<blockquote>
+<p><em>Nasrettin Hoca, suya gönderdiği çocuğun eline testiyi vermiş ve;</em></p>
+
+<blockquote></blockquote>
+
+<p><em>“–Testiyi kırmadan getir.” diyerek bir de tokat patlatmış.</em></p>
+
+<blockquote></blockquote>
+
+<p><em>Yanındakiler hocaya söylenmişler:</em></p>
+
+<blockquote></blockquote>
+
+<p><em>“–Hocam, çocukcağız testiyi kırmadı ki, tokat atıyorsun! Bu yaptığın doğru bir iş değil!” Hoca istifini bozmadan cevap vermiş:</em></p>
+
+<blockquote></blockquote>
+
+<p><em>“–Doğru söylüyorsunuz; ancak testiyi kırdıktan sonra tokat atmanın ne faydası olur?”</em></p>
+</blockquote>
+
+<p>Type safety denen tanim soyle aciklaniyor:</p>
+
+<blockquote>
+<p>Type safety, type hatalarinin olusmamasi icin caydirici onlemler alinmasi veya engellenmesidir.</p>
+
+<blockquote></blockquote>
+
+<p>Type hataasi ise iki farkli tipteki(type) varligin birbirinden ayirt edilmesinde yasanan, arzu edilmeyen karisikliktir.</p>
+</blockquote>
+
+<p>Zorlamaya gerek yok; sogana portakal gibi davranip suyunu sikmak type hatasidir.</p>
+
+<p>Anlasilacagi gibi, type safe sistemler bu hatalari minimize etmek uzerine tasarlanir. Bunun da en kolay yolu testi kirilmadan onlem almaktir. Eger sikilacak seyin portakal olup olmadigini sorgularsan, sogan suyu icmek zorunda kalmazsin.</p>
+
+<p>Peki insanoglu neden type safe degildir? Dusunsenize, biz ki her insana, her varliga olmasi gerektigi gibi davranan, taa bastan itibaren neyle ugrastigini bilen, her turlu iletisimde icin en ideal, en uygun tutuma sahip varliklar olarak hangi mekanizma bizden daha type safe ki?</p>
+
+<p>Sonuc? Tipki insanliga olan inancim gibi, Object oriented programlamaya olan inancimi da kaybetmis bulunuyorum. Sanirim hayati daha fonksiyonel bir bakis acisi ile yasamak, en ideal davranis olacaktir.</p>
+
+<p>Sevgiler.</p>
+    <hr>
+    <div class="pagination">
+      <ul>
+      
+        <li class="prev"><a href="/kisisel/2013/03/17/korkuyorum" title="Korkuyorum">&larr;Önceki</a></li>
+      
+        <li><a href="/archive.html">Arşiv</a></li>
+      
+        <li class="next disabled"><a>Sonraki &rarr;</a>
+      
+      </ul>
+    </div>
+    <hr>
+    
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'kubudi'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://kubudi.github.com/2013/12/18/object-oriented-insanoglu#disqus_thread" data-disqus-identifier="/2013/12/18/object-oriented-insanoglu"></a>
+
+
+
+
+  </div>
+  
+  <div class="span4">
+    <div class="date"><span>18 December 2013</span></div>  
+    <hr>  
+    
+
+
+  <div class="addthis_toolbox addthis_default_style ">
+<a class="addthis_button_preferred_1"></a>
+<a class="addthis_button_preferred_2"></a>
+<a class="addthis_button_preferred_3"></a>
+<a class="addthis_button_compact"></a>
+<a class="addthis_counter addthis_bubble_style"></a>
+</div>
+<script>
+	var addthis_share = { templates: {
+		 
+		twitter: 'Object Oriented Insanoglu http://kubudi.me/2013/12/18/object-oriented-insanoglu (via@kubudik)'}}
+</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51444d3d59722afe"></script>
+
+
+
+    
+    
+  </div>
+</div>
+
+
+      </div>
+
+      <footer>
+        <p style="font-size:10px">&copy; Mehmet Ali Gözaydın 2013 
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    
+  </body>
+</html>
+
