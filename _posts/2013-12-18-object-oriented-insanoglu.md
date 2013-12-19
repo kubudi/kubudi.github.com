@@ -2,7 +2,7 @@
 layout: post
 title: "Object Oriented Insanoglu"
 description: ""
-category: kisisel
+category: 
 tags: []
 ---
 {% include JB/setup %}
