@@ -81,7 +81,7 @@ Evet, pes etmediniz, yilmadiniz, bu yaziyi buraya kadar okudunuz. Iste odulunuz,
 Type safety denen tanim soyle aciklaniyor:
 > Type safety, type hatalarinin olusmamasi icin caydirici onlemler alinmasi veya engellenmesidir.
 >> 
-> Type hataasi ise iki farkli tipteki(type) varligin birbirinden ayirt edilmesinde yasanan, arzu edilmeyen karisikliktir.    
+> Type hatasi ise iki farkli tipteki(type) varligin birbirinden ayirt edilmesinde yasanan, arzu edilmeyen karisikliktir.    
 
 Zorlamaya gerek yok; sogana portakal gibi davranip suyunu sikmak type hatasidir. 
 

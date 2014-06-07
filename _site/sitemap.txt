@@ -8,6 +8,7 @@ http://kubudi.me/rss.xml
 http://kubudi.me/index.html
 http://kubudi.me/teknik.html
 
+http://kubudi.me/kisisel/2014/06/07/neden-agliyorsun
 http://kubudi.me/2013/12/18/object-oriented-insanoglu
 http://kubudi.me/kisisel/2013/03/17/korkuyorum
 http://kubudi.me/kisisel/2013/03/17/acik-mektup

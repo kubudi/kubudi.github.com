@@ -4,13 +4,37 @@
  <title>Mehmet Ali Gözaydın</title>
  <link href="http://kubudi.me/" rel="self"/>
  <link href="http://kubudi.me"/>
- <updated>2013-12-20T00:55:33+02:00</updated>
+ <updated>2014-06-07T22:23:29+03:00</updated>
  <id>http://kubudi.me</id>
  <author>
    <name>Mehmet Ali Gözaydın</name>
    <email>kubudik@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Neden Agliyorsun</title>
+   <link href="http://kubudi.me/kisisel/2014/06/07/neden-agliyorsun"/>
+   <updated>2014-06-07T00:00:00+03:00</updated>
+   <id>http://kubudi.me/kisisel/2014/06/07/neden-agliyorsun</id>
+   <content type="html">&lt;p&gt;Neden agliyorsun?&lt;/p&gt;
+
+&lt;p&gt;Ne oldu ki simdi? Hani Yillardir bir damla yas gelmemisti gozunden? Hani tam da inaniyordun kursun gecirmez olduguna. Neden agliyorsun ki simdi? Neden bozdun bunca zamanlik buyuyu?&lt;/p&gt;
+
+&lt;p&gt;Sanirim biliyorum neden agladigini. Tepetaklak duserken takildigin o son dal ufak bir esintiyle titreyince, biraz urperdin galiba.&lt;/p&gt;
+
+&lt;p&gt;Peki daha oncesi? Neden daha once aglamadin ki? Tek dal o degildi malum, niceleri vardi: Tutmadiklarin, tutunamadikarin, kirip gectiklerin..&lt;/p&gt;
+
+&lt;p&gt;Hepsinin ardindan neden sadece bu dal bu kadar sarsti ki seni? Neydi ki bu dalin seni boylesine etkilemesine sebep olan? Bunca daldan sonra, neden bu dal?&lt;/p&gt;
+
+&lt;p&gt;Bunun cevabini da biliyorum sanirim. Bu son dal degil mi? Dibe dogru olan yolculugundaki son dal.. Son dala varinca mi farkettin geride biraktigin onca seyi? Hepsi birden mi yuklendi omuzlarina?&lt;/p&gt;
+
+&lt;p&gt;Aglamasaydin keske, hic gerek yoktu inan. Cok daha gerekli oldugu zamanlar vardi. Onlari asip geldikten sonra keske burada aglamasaydin.&lt;/p&gt;
+
+&lt;p&gt;Belki o zaman sen de inanirdin gercekten asip geldigine. Belki o zaman gercekten rahat ederdi gogus kafesin uzun bir zaman ustune.&lt;/p&gt;
+
+&lt;p&gt;Ama agladin iste. Bu ne demek biliyorsun. Dus artik. Coktan gelmedi mi dusmenin vakti? Nereden biliyorsun ki dusmenin asili kalmaktan kotu oldugu?&lt;/p&gt;</content>
+ </entry>
  
  <entry>
    <title>Object Oriented Insanoglu</title>
@@ -112,7 +136,7 @@
 
 &lt;blockquote&gt;&lt;/blockquote&gt;
 
-&lt;p&gt;Type hataasi ise iki farkli tipteki(type) varligin birbirinden ayirt edilmesinde yasanan, arzu edilmeyen karisikliktir.&lt;/p&gt;
+&lt;p&gt;Type hatasi ise iki farkli tipteki(type) varligin birbirinden ayirt edilmesinde yasanan, arzu edilmeyen karisikliktir.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Zorlamaya gerek yok; sogana portakal gibi davranip suyunu sikmak type hatasidir.&lt;/p&gt;
